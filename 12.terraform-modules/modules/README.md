@@ -8,5 +8,5 @@ Create IAM-Module using Terraform public Registry: Create create resource iam-us
 b) call this module from Root module's main.tf
 
 
-Commands are same as commonly used commands as 1.terraform-local
+Commands are same as commonly used commands as in 1.terraform-local
 Addtional commands if you want to download the modules then you can either use "terraform init" or "terraform get" 
