@@ -1,0 +1,2 @@
+## Dont worry task35: child module IAM- create iam module using terraform public repository, so its upto you if you want to define it seperatly or call it form Root module directly
+# Recommended is to create module, so you know what all resources you are creating

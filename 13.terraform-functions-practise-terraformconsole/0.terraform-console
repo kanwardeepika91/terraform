@@ -1,0 +1,7 @@
+Terraform console
+
+The terraform console command provides an interactive console for evaluating expressions.
+The expressions or the operators that you use, you can test it in terraform console
+
+command:
+terraform console
