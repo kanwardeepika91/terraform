@@ -11,7 +11,7 @@
 
 6) Terraform
 ### Terraform workflow
-    Write code
+   img Write code
     Init
     Plan        #we called it either dry run or blueprint
     Apply
@@ -24,7 +24,7 @@ The primary workflow commands are given first, followed by
 less common or more advanced commands.
 
  7b) Main commands:
-  init          Prepare your working directory for other commands
+  img init          Prepare your working directory for other commands
   validate      Check whether the configuration is valid
   plan          Show changes required by the current configuration
   apply         Create or update infrastructure
