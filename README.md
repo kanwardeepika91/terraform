@@ -9,12 +9,12 @@
 
 5) Terraform Exam Registration :https://developer.hashicorp.com/certifications/infrastructure-automation
 
-6) Terraform
 ### Terraform workflow
-   img Write code
+    Write code
     Init
     Plan        #we called it either dry run or blueprint
     Apply
+
 
 7) ####TERRAFORM COMMANDS and options
   Usage: terraform [global options] <subcommand> [args]
@@ -24,7 +24,7 @@ The primary workflow commands are given first, followed by
 less common or more advanced commands.
 
  7b) Main commands:
-  img init          Prepare your working directory for other commands
+  init          Prepare your working directory for other commands
   validate      Check whether the configuration is valid
   plan          Show changes required by the current configuration
   apply         Create or update infrastructure
