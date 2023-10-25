@@ -23,14 +23,17 @@
 The primary workflow commands are given first, followed by
 less common or more advanced commands.
 
- 7b) Main commands:
+ 7b) `Main commands:`
+```
   init          Prepare your working directory for other commands
   validate      Check whether the configuration is valid
   plan          Show changes required by the current configuration
   apply         Create or update infrastructure
   destroy       Destroy previously-created infrastructure
+```
 
- 7c) All other commands:
+ 7c) `All other commands:`
+```
   console       Try Terraform expressions at an interactive command prompt
   fmt           Reformat your configuration in the standard style
   force-unlock  Release a stuck lock on the current workspace
@@ -50,14 +53,17 @@ less common or more advanced commands.
   untaint       Remove the 'tainted' state from a resource instance
   version       Show the current Terraform version
   workspace     Workspace management
+```
 
  7d) Global options (use these before the subcommand, if any):
+```
   -chdir=DIR    Switch to a different working directory before executing the
                 given subcommand.
   -help         Show this help output, or the help for a specified subcommand.
   -version      An alias for the "version" subcommand.
+```
 
-8) TERRAFORM STATE subcommands: 
+8) `TERRAFORM STATE subcommands: `
 
   8a) This command has subcommands for advanced state management.
 
@@ -70,7 +76,8 @@ less common or more advanced commands.
   well with the common Unix utilities such as grep, awk, etc. We recommend
   using those tools to perform more advanced state tasks
 
-  8d)Subcommands:
+  8d)`Subcommands:`
+  ```
     list                List resources in the state
     mv                  Move an item in the state
     pull                Pull current state and output to stdout
@@ -78,9 +85,10 @@ less common or more advanced commands.
     replace-provider    Replace provider in the state
     rm                  Remove instances from the state
     show                Show a resource in the state
+  ```
 
 
-9) IMPORTANT: TERRAFORM INIT Subcommands: 
+9) `IMPORTANT: TERRAFORM INIT Subcommands:` 
 
  9a) Usage: terraform [global options] init [options]
 
@@ -99,6 +107,7 @@ less common or more advanced commands.
 
  9e) Options:
 
+  ```
   -backend=false          Disable backend or Terraform Cloud initialization
                           for this configuration and use what was previously
                           initialized instead.
@@ -160,3 +169,4 @@ less common or more advanced commands.
                           an operation proceed even when there is a potential mismatch.
                           See the documentation on configuring Terraform with
                           Terraform Cloud for more information.
+  ```
