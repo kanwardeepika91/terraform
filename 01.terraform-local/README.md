@@ -1,3 +1,4 @@
+```
 1) You can use any name to your terraform configuration file, extension should be .tf -- Dont worry, if you dont understand this now - you will see those when you start doing the further tasks.
 
 2) Commonly used commands are and are used for every plan that you create or apply or destroy 
@@ -13,4 +14,5 @@
 3b) "terraform.tfstate.backup" - is a backup copy of the state when you destroy 
 3c) ".terraform.lock.hcl" - Understand about the terraform lock hcl file - it locks the provider versions that are downloaded when you initialize using "terraform init"
 3d) ".terraform" Understand about the Terrafom hidden directory where it downloads the providers in this directory
+```
   
