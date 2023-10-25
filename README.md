@@ -17,7 +17,7 @@
 
 
 7) ####TERRAFORM COMMANDS and options
-  Usage: terraform [global options] <subcommand> [args]
+  `Usage: terraform [global options] <subcommand> [args]`
 
  7a) The available commands for execution are listed below.
 The primary workflow commands are given first, followed by
