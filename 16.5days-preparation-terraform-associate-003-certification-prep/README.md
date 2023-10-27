@@ -1,9 +1,11 @@
-Perfect tutorials and documentation to clear the exam is to follow the Hashicorp documentation: https://developer.hashicorp.com/terraform/docs
+## Tutorials and Objectives expected in Exam
+
+`Perfect tutorials and documentation to clear the exam is to follow the Hashicorp documentation: https://developer.hashicorp.com/terraform/docs
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started?utm_source=WEBSITE&utm_medium=WEB_IO&utm_offer=ARTICLE_PAGE&utm_content=DOCS
 
-Exam Objectives, these are all covered by Hashicorp Tutorials :
+# Exam Objectives, these are all covered by Hashicorp Tutorials :
 Exam covers these below topics:
-1	Understand Infrastructure as Code (IaC) concepts
+`1	Understand Infrastructure as Code (IaC) concepts
 1a	Explain what IaC is
 1b	Describe advantages of IaC patterns
 2	Understand the purpose of Terraform (vs other IaC)
@@ -49,4 +51,4 @@ Exam covers these below topics:
 8g	Describe built-in dependency management (order of execution based)
 9	Understand Terraform Cloud capabilities
 9a	Explain how Terraform Cloud helps to manage infrastructure
-9b	Describe how Terraform Cloud enables collaboration and governance
+9b	Describe how Terraform Cloud enables collaboration and governance``

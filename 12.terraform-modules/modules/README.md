@@ -1,5 +1,7 @@
-Steps:
-Example1: Create a root module and child modules
+## Terraform modules
+
+# Steps:
+`Example1: Create a root module and child modules
 a) Create ec2-Module using user's local/custom module: create resource ec2 and associate variables , outputs etc in single file and then seperate them
 b) call this module from Root module's main.tf
 
@@ -9,4 +11,4 @@ b) call this module from Root module's main.tf
 
 
 Commands are same as commonly used commands as in 1.terraform-local
-Addtional commands if you want to download the modules then you can either use "terraform init" or "terraform get" 
+Addtional commands if you want to download the modules then you can either use "`terraform init`" or "`terraform get`" `

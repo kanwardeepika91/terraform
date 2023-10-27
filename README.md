@@ -1,3 +1,6 @@
+## Terraform documentation, commands and exam registration
+# Exam objectives are in folder 16.
+
 1) Every Task in this repository has individual README.md file, along with Task numbers that has details on how to execute each task with commands.
 
 2) Before you begin with Terraform, understand what is Infrastructure as a code:  https://aws.amazon.com/what-is/iac/
@@ -16,14 +19,14 @@
     Apply
 
 
-7) ####TERRAFORM COMMANDS and options
+7) ## TERRAFORM Commands and options
   `Usage: terraform [global options] <subcommand> [args]`
 
  7a) The available commands for execution are listed below.
 The primary workflow commands are given first, followed by
 less common or more advanced commands.
 
- 7b) `Main commands:`
+ 7b) `Terraform Main commands`
 ```
   init          Prepare your working directory for other commands
   validate      Check whether the configuration is valid
@@ -105,7 +108,7 @@ less common or more advanced commands.
   state. Even so, if you have important information, please back it up prior
   to running this command, just in case.
 
- 9e) Options:
+ 9e) `Options:`
 
   ```
   -backend=false          Disable backend or Terraform Cloud initialization
