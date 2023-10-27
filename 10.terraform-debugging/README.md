@@ -1,9 +1,10 @@
 ## Terraform Debugging(Logging)
+```
 
-`1) Terraform environment logging variable: TF_LOG
+1) Terraform environment logging variable: `TF_LOG`
 2) There are 5 forms of logging :
   ```
-  Info
+    Info
     Warning
     Error
     Debug
@@ -21,4 +22,6 @@ Example to set log env variable : `export TF_LOG=ERROR` or any form above can be
     Command: `unset TF_LOG_PATH` 
 
 6) I'm using the same Taint example so we can view the logs
-7) export the variable on terminal before running terraform commands`
+7) export the variable on terminal before running terraform commands
+
+```
