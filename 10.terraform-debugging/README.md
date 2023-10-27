@@ -2,11 +2,13 @@
 
 `1) Terraform environment logging variable: TF_LOG
 2) There are 5 forms of logging :
-  `  Info
+  ```
+  Info
     Warning
     Error
     Debug
-    Trace ` 
+    Trace 
+  ```
 
 3) `TRACE` → is the highest verbose logging in terraform
 Example to set log env variable : `export TF_LOG=ERROR` or any form above can be used based on logs needed
